@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "django-background-tasks"
+version = "0.1.0"
+description = "A simple background task runner for Django"
+authors = ["Sigurd Ljødal <544451+ljodal@users.noreply.github.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "django_background_tasks"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.1.0"
+ruff = "^0.0.259"
+mypy = "^1.1.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
