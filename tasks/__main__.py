@@ -1,4 +1,4 @@
-from .runner import TaskRunner
+from .scheduler import Scheduler
 
 if __name__ == "__main__":
-    TaskRunner().run()
+    Scheduler().run()
